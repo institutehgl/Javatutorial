@@ -27,7 +27,7 @@ public class Compoundstypes implements Myinterface {
         //2d array
         int[][] array2 = {{1, 2},
                           {1, 2}};
-        //prints array
+        //prints arrays
 
         System.out.print(array2[0][0]+" ");
         System.out.println(array2[0][1]);
