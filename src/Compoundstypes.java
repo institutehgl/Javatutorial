@@ -34,6 +34,28 @@ public class Compoundstypes implements Myinterface {
         System.out.print(array2[1][0]+" ");
         System.out.println(array2[1][1]);
 
+        //3d array
+
+        int[][][] array3d =
+                {   {   {1,2,3},
+                        {1,2,3},
+                        {1,2,3}
+                        }
+                            ,{
+                        {1,2,3},
+                        {1,2,3},
+                        {1,2,3}
+                        }
+                            ,{
+                        {1,2,3},
+                        {1,2,3},
+                        {1,2,3}
+                            }
+            };
+        System.out.println(array3d[2][2][2]);
+
+
+
         //strings
         String st = "hello ";
         String raj="world";
@@ -47,9 +69,9 @@ public class Compoundstypes implements Myinterface {
 
 
         //enums
-        Level level = Level.HIGH;
-        System.out.println(level);
-
+        Level l = Level.MEDIUM;
+        System.out.println(l);
+        
         Compoundstypes c = new Compoundstypes();
         c.greets();
 
@@ -59,4 +81,5 @@ public class Compoundstypes implements Myinterface {
         System.out.println("Myinterface function");
     }
 }
+
 
