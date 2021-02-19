@@ -24,6 +24,13 @@ public class Student {
         System.out.println(age);
         System.out.println(subjects);
     }
+    void print1(){
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(subjects[0]);
+        System.out.println(subjects[1]);
+
+    }
 
 
 }
